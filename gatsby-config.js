@@ -1,7 +1,6 @@
 const config = require('./config');
 
 module.exports = {
-  siteTitle: 'いちはらテイクアウト',
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
@@ -22,5 +21,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    'gatsby-plugin-netlify-cms',
   ],
 };
