@@ -50,7 +50,7 @@ class Layout extends Component {
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
-              <html lang="en" />
+              <html lang="ja" />
             </Helmet>
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               <div id="wrapper">

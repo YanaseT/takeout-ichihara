@@ -19,6 +19,16 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        contentPath: `content/posts`,
+        basePath: `/`,
+        assetPath: `content/assets`,
+        mdx: true,
+      },
+    },
+    
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify-cms',
