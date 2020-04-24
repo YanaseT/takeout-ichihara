@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'いちはらテイクアウト', // <title>
-  manifestName: 'いちはらテイクアウト',
-  manifestShortName: 'いちはらテイクアウト', // max 12 characters
+  siteTitle: 'テイクアウトいちはら', // <title>
+  manifestName: 'テイクアウトいちはら',
+  manifestShortName: 'テイクアウトいちはら', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

@@ -17,27 +17,26 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h1>
-            This is Phantom, a free, fully responsive gatsby starter
+            テイクアウトいちはら
             <br />
           </h1>
           <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
-            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
-            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-            ipsum dolor sit amet nullam dolore.
+          新型コロナウイルスの感染拡大防止のため、外出自粛が続く中、皆様のおうち時間や、
+          市原市内のお店を応援したい、そんな思いからこのホームページを作成しました。
+          ぜひご利用ください。
           </p>
         </header>
+        <b>お店をカテゴリから選ぶ</b>
         <section className="tiles">
           <article className="style1">
             <span className="image">
               <img src={pic1} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Magna</h2>
+              <h2>アルコール</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                テイクアウトでアルコールメニューを提供するお店
                 </p>
               </div>
             </Link>
@@ -47,11 +46,10 @@ const IndexPage = () => (
               <img src={pic2} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Lorem</h2>
+              <h2>イタリアン</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                テイクアウトでイタリアンを提供するお店
                 </p>
               </div>
             </Link>
@@ -61,11 +59,10 @@ const IndexPage = () => (
               <img src={pic3} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Feugiat</h2>
+              <h2>お好み焼き</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでお好み焼きを提供するお店
                 </p>
               </div>
             </Link>
@@ -75,11 +72,10 @@ const IndexPage = () => (
               <img src={pic4} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Tempus</h2>
+              <h2>カフェごはん</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでカフェごはんを提供するお店
                 </p>
               </div>
             </Link>
@@ -89,11 +85,10 @@ const IndexPage = () => (
               <img src={pic5} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Aliquam</h2>
+              <h2>からあげ</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでからあげを提供するお店
                 </p>
               </div>
             </Link>
@@ -103,11 +98,10 @@ const IndexPage = () => (
               <img src={pic6} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Veroeros</h2>
+              <h2>カレー</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでカレーを提供するお店
                 </p>
               </div>
             </Link>
@@ -117,11 +111,10 @@ const IndexPage = () => (
               <img src={pic1} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Ipsum</h2>
+              <h2>サラダ</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでサラダを提供するお店
                 </p>
               </div>
             </Link>
@@ -131,11 +124,10 @@ const IndexPage = () => (
               <img src={pic2} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Dolor</h2>
+              <h2>スイーツ</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでスイーツを提供するお店
                 </p>
               </div>
             </Link>
@@ -145,11 +137,10 @@ const IndexPage = () => (
               <img src={pic3} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Nullam</h2>
+              <h2>とんかつ</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでとんかつを提供するお店
                 </p>
               </div>
             </Link>
@@ -159,11 +150,10 @@ const IndexPage = () => (
               <img src={pic4} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Ultricies</h2>
+              <h2>パン</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトでパンを提供するお店
                 </p>
               </div>
             </Link>
@@ -173,11 +163,10 @@ const IndexPage = () => (
               <img src={pic5} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Dictum</h2>
+              <h2>中華</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトで中華を提供するお店
                 </p>
               </div>
             </Link>
@@ -187,11 +176,75 @@ const IndexPage = () => (
               <img src={pic6} alt="" />
             </span>
             <Link to="/Generic">
-              <h2>Pretium</h2>
+              <h2>串カツ</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  テイクアウトで串カツを提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style1">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>和食</h2>
+              <div className="content">
+                <p>
+                  テイクアウトで和食を提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style2">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>居酒屋</h2>
+              <div className="content">
+                <p>
+                  テイクアウトで居酒屋メニューを提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style3">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>洋食</h2>
+              <div className="content">
+                <p>
+                  テイクアウトで洋食を提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>焼き肉</h2>
+              <div className="content">
+                <p>
+                  テイクアウトで焼き肉を提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style5">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>蕎麦</h2>
+              <div className="content">
+                <p>
+                  テイクアウトで蕎麦を提供するお店
                 </p>
               </div>
             </Link>

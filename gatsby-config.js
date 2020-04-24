@@ -20,7 +20,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-theme-blog`,
+      resolve: `gatsby-theme-blog-core`,
       options: {
         contentPath: `content/posts`,
         basePath: `/`,
@@ -28,7 +28,7 @@ module.exports = {
         mdx: true,
       },
     },
-    
+
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify-cms',
