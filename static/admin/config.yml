@@ -1,6 +1,6 @@
 backend:
     name: takeout-ichihara
-  media_folder: src/assets/images
+  media_folder: static/img
   public_folder: /assets
   collections:
     - name: blog
