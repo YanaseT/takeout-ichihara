@@ -2,7 +2,7 @@ import React from "react"
 
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Layout from "./layout"
+import Layout from "./Layout"
 //import SEO from "./seo"
 //import PostTitle from "./post-title"
 //import PostFooter from "./Footer"
