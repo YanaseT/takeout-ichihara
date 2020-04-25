@@ -8,6 +8,8 @@ import pic3 from '../assets/images/03.jpg';
 import pic4 from '../assets/images/04.jpg';
 import pic5 from '../assets/images/05.jpg';
 import pic6 from '../assets/images/06.jpg';
+//import PostList from "./../components/post-list"
+
 
 import { Link } from 'gatsby';
 

@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-theme-blog-core`,
       options: {
         contentPath: `content/posts`,
-        basePath: `/`,
+        basePath: `/all`,
         assetPath: `content/assets`,
         mdx: true,
       },
