@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../../components/Layout"
+import TagList from "../../components/TagList"
 
 export default ({
   data: {
@@ -8,22 +9,29 @@ export default ({
   },
 }) => (
   <Layout>
-    <strong>掲載店舗一覧</strong>
+   <div id="main">
+      <div className="inner">
+    <h1>掲載店舗一覧 {totalCount}</h1>
     {blogs.map(
       ({
         node: {
           id,
           title,
-          slug
+          slug,
+          tags,
         },
-      }) => (
-        <div key={id}>
-          <h2>
-            <Link to={slug}>{title}</Link>
-          </h2>
-        </div>
-      )
+      }) => (<div key={id}>
+        <h2 style={{
+            margin : `5px`,
+            fontSize : `30px`,
+        }}>
+          <Link to={slug}>{title}</Link>
+        </h2>
+        <TagList tags={tags || []} />
+      </div>)
     )}
+    </div>
+    </div>
   </Layout>
 )
 
@@ -36,6 +44,7 @@ query {
         id
         slug
         title
+        tags
       }
     }
   }

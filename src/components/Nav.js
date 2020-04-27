@@ -8,13 +8,13 @@ export default function Nav({ onClose = () => {} }) {
         <h2>Menu</h2>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">ホーム</Link>
           </li>
           <li>
-            <Link to="/Generic">Generic Page</Link>
+            <Link to="/about">このサイトについて</Link>
           </li>
           <li>
-            <Link to="/Elements">Elements</Link>
+            <Link to="/contact">掲載申込・お問い合わせ</Link>
           </li>
         </ul>
       </div>
