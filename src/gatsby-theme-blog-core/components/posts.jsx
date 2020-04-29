@@ -28,6 +28,7 @@ export default ({
           <Link to={slug}>{title}</Link>
         </h2>
         <TagList tags={tags || []} />
+        <hr/>
       </div>)
     )}
     </div>

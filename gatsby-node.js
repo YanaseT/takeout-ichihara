@@ -43,7 +43,7 @@ return new Promise((resolve, reject) => {
           }
         `
       ).then(result => {
-        console.log(JSON.stringify(result, null, 4))
+        //console.log(JSON.stringify(result, null, 4))
         if (result.errors) {
           return Promise.reject(result.errors)
         }

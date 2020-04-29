@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from 'gatsby'
+import Layout from "../components/Layout"
+import TagList from "./TagList"
 /*import Layout from "./Layout"
 import Post from "./post"
 import { graphql } from "gatsby"*/
@@ -8,9 +10,12 @@ import { graphql } from "gatsby"*/
 const Tag = ({ pageContext }) => {
   const { posts, tagName } = pageContext
   return (
+  <Layout>
+   <div id="main">
+      <div className="inner">
     <div>
       <div>
-        {`${tagName}`}の店舗
+       <h1> {`${tagName}`}の店舗</h1>
       </div>
       <div>
         <ul>
@@ -20,12 +25,17 @@ const Tag = ({ pageContext }) => {
                 <Link to={post.slug}>
                   {post.title}
                 </Link>
+                <TagList tags={post.tags || []} />
+                <hr/>
               </li>
             )
           })}
         </ul>
       </div>
     </div>
+    </div>
+    </div>
+    </Layout>
   )
 }
 

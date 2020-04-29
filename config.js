@@ -11,7 +11,7 @@ module.exports = {
   heading: 'Anubhav Srivastava',
   subHeading: 'Full time Web Developer. Part time Open source contributor  ',
   // social
-  socialLinks: [
+  //socialLinks: [
     /*{
       icon: 'fa-github',
       name: 'Github',
@@ -27,5 +27,5 @@ module.exports = {
       name: 'Facebook',
       url: 'https://facebook.com/theanubhav',
     },*/
-  ],
+  //],
 };

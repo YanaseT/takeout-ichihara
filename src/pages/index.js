@@ -1,9 +1,13 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
+import Styles from './list.module.css';
+import Helmet from 'react-helmet'
 
-import pic1 from '../assets/images/01.jpg';
-import pic2 from '../assets/images/02.jpg';
+
+
+//import pic1 from '../assets/images/01.jpg';
+//import pic2 from '../assets/images/02.jpg';
 import pic3 from '../assets/images/03.jpg';
 import pic4 from '../assets/images/04.jpg';
 import pic5 from '../assets/images/05.jpg';
@@ -19,14 +23,26 @@ import pic14 from '../assets/images/14.jpg'
 import pic15 from '../assets/images/15.jpg'
 import pic16 from '../assets/images/16.jpg'
 import pic17 from '../assets/images/17.jpg'
+import pic18 from '../assets/images/18.jpg'
 import pic19 from '../assets/images/19.jpg'
+import piccp from '../assets/images/cp.jpg'
 //import PostList from "./../components/post-list"
 
 
 import { Link } from 'gatsby';
 
+
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="テイクアウトいちはら" />
+      <meta name="twitter:image" content={pic18} />
+      
+      <meta property="og:title" content="テイクアウトいちはら" />
+      <meta property="og:image" content={pic18} />
+      <meta property="og:url" content="https://takeout-ichihara.info" />
+    </Helmet>
     <div id="main">
       <div className="inner">
         <header>
@@ -58,30 +74,49 @@ const IndexPage = () => (
           </article>
         </section>
         <hr/>
+        <b>地域別の掲載店舗を探す</b>
+          <ul className={Styles.cp_list} >
+            <li><Link to="/tags/五井地区">五井地区</Link></li>
+            <li><Link to="/tags/市原地区">市原地区</Link></li>
+          </ul>
+        <hr/>
         <b>お店をカテゴリから選ぶ</b>
         <section className="tiles">
-          <article className="style1">
+        <article className="style5">
             <span className="image">
-              <img src={pic1} alt="" />
+              <img src={pic13} alt="" />
             </span>
-            <Link to="/about">
-              <h2>アルコール</h2>
+            <Link to="/tags/和食">
+              <h2>和食</h2>
               <div className="content">
                 <p>
-                テイクアウトでアルコールメニューを提供するお店
+                  和食を提供するお店
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style1">
+            <span className="image">
+              <img src={piccp} alt="" />
+            </span>
+            <Link to="/tags/長崎ちゃんぽん">
+              <h2>長崎ちゃんぽん</h2>
+              <div className="content">
+                <p>
+                長崎ちゃんぽんを提供するお店
                 </p>
               </div>
             </Link>
           </article>
           <article className="style2">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={piccp} alt="" />
             </span>
             <Link to="/about">
               <h2>イタリアン</h2>
               <div className="content">
                 <p>
-                テイクアウトでイタリアンを提供するお店
+                イタリアンを提供するお店
                 </p>
               </div>
             </Link>
@@ -94,7 +129,7 @@ const IndexPage = () => (
               <h2>お好み焼き</h2>
               <div className="content">
                 <p>
-                  テイクアウトでお好み焼きを提供するお店
+                  お好み焼きを提供するお店
                 </p>
               </div>
             </Link>
@@ -107,7 +142,7 @@ const IndexPage = () => (
               <h2>カフェごはん</h2>
               <div className="content">
                 <p>
-                  テイクアウトでカフェごはんを提供するお店
+                  カフェごはんを提供するお店
                 </p>
               </div>
             </Link>
@@ -120,7 +155,7 @@ const IndexPage = () => (
               <h2>からあげ</h2>
               <div className="content">
                 <p>
-                  テイクアウトでからあげを提供するお店
+                  からあげを提供するお店
                 </p>
               </div>
             </Link>
@@ -133,7 +168,7 @@ const IndexPage = () => (
               <h2>カレー</h2>
               <div className="content">
                 <p>
-                  テイクアウトでカレーを提供するお店
+                  カレーを提供するお店
                 </p>
               </div>
             </Link>
@@ -146,7 +181,7 @@ const IndexPage = () => (
               <h2>サラダ</h2>
               <div className="content">
                 <p>
-                  テイクアウトでサラダを提供するお店
+                  サラダを提供するお店
                 </p>
               </div>
             </Link>
@@ -159,7 +194,7 @@ const IndexPage = () => (
               <h2>スイーツ</h2>
               <div className="content">
                 <p>
-                  テイクアウトでスイーツを提供するお店
+                  スイーツを提供するお店
                 </p>
               </div>
             </Link>
@@ -172,7 +207,7 @@ const IndexPage = () => (
               <h2>とんかつ</h2>
               <div className="content">
                 <p>
-                  テイクアウトでとんかつを提供するお店
+                  とんかつを提供するお店
                 </p>
               </div>
             </Link>
@@ -185,7 +220,7 @@ const IndexPage = () => (
               <h2>パン</h2>
               <div className="content">
                 <p>
-                  テイクアウトでパンを提供するお店
+                  パンを提供するお店
                 </p>
               </div>
             </Link>
@@ -198,7 +233,7 @@ const IndexPage = () => (
               <h2>中華</h2>
               <div className="content">
                 <p>
-                  テイクアウトで中華を提供するお店
+                  中華を提供するお店
                 </p>
               </div>
             </Link>
@@ -211,20 +246,7 @@ const IndexPage = () => (
               <h2>串カツ</h2>
               <div className="content">
                 <p>
-                  テイクアウトで串カツを提供するお店
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
-            <span className="image">
-              <img src={pic13} alt="" />
-            </span>
-            <Link to="/about">
-              <h2>和食</h2>
-              <div className="content">
-                <p>
-                  テイクアウトで和食を提供するお店
+                  串カツを提供するお店
                 </p>
               </div>
             </Link>
@@ -237,7 +259,7 @@ const IndexPage = () => (
               <h2>居酒屋</h2>
               <div className="content">
                 <p>
-                  テイクアウトで居酒屋メニューを提供するお店
+                  居酒屋メニューを提供するお店
                 </p>
               </div>
             </Link>
@@ -250,7 +272,7 @@ const IndexPage = () => (
               <h2>洋食</h2>
               <div className="content">
                 <p>
-                  テイクアウトで洋食を提供するお店
+                  洋食を提供するお店
                 </p>
               </div>
             </Link>
@@ -263,7 +285,7 @@ const IndexPage = () => (
               <h2>焼き肉</h2>
               <div className="content">
                 <p>
-                  テイクアウトで焼き肉を提供するお店
+                  焼き肉を提供するお店
                 </p>
               </div>
             </Link>
@@ -276,7 +298,7 @@ const IndexPage = () => (
               <h2>蕎麦</h2>
               <div className="content">
                 <p>
-                  テイクアウトで蕎麦を提供するお店
+                  蕎麦を提供するお店
                 </p>
               </div>
             </Link>

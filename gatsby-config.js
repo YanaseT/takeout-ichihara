@@ -6,7 +6,31 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-164815430-1 ",
+      },
+    },
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-catch-links',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 690,
+              quality: 90,
+              linkImagesToOriginal: true,
+            }
+          }
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -28,9 +52,9 @@ module.exports = {
         mdx: true,
       },
     },
-
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify-cms',
+    'react-helmet',
   ],
 };
