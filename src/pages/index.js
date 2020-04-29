@@ -38,10 +38,10 @@ const IndexPage = props => (
     <Helmet>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="テイクアウトいちはら" />
-      <meta name="twitter:image" content={<Img fluid={props.data.ogpimage.childImageSharp.fluid} />} />
+      <meta name="twitter:image" content={props.data.ogpimage.childImageSharp.fluid}/>
       
       <meta property="og:title" content="テイクアウトいちはら" />
-      <meta property="og:image" content={<Img fluid={props.data.ogpimage.childImageSharp.fluid} />} />
+      <meta property="og:image" content={props.data.ogpimage.childImageSharp.fluid} />
       <meta property="og:url" content="https://takeout-ichihara.info" />
     </Helmet>
     <div id="main">
