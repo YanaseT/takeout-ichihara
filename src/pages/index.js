@@ -38,10 +38,9 @@ const IndexPage = props => (
     <Helmet>
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="テイクアウトいちはら" />
-      <meta name="twitter:image" content={}/>
+      
       
       <meta property="og:title" content="テイクアウトいちはら" />
-      <meta property="og:image" content={} />
       <meta property="og:url" content="https://takeout-ichihara.info" />
     </Helmet>
     <div id="main">
