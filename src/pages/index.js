@@ -112,7 +112,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.italy.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/イタリアン">
               <h2>イタリアン</h2>
               <div className="content">
                 <p>
@@ -125,7 +125,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.okonomi.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/お好み焼き">
               <h2>お好み焼き</h2>
               <div className="content">
                 <p>
@@ -138,7 +138,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.cafe.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/カフェごはん">
               <h2>カフェごはん</h2>
               <div className="content">
                 <p>
@@ -151,7 +151,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.karaage.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/からあげ">
               <h2>からあげ</h2>
               <div className="content">
                 <p>
@@ -164,7 +164,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.curry.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/カレー">
               <h2>カレー</h2>
               <div className="content">
                 <p>
@@ -177,7 +177,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.sald.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/サラダ">
               <h2>サラダ</h2>
               <div className="content">
                 <p>
@@ -190,7 +190,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.sweets.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/スイーツ">
               <h2>スイーツ</h2>
               <div className="content">
                 <p>
@@ -203,7 +203,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.tonkatsu.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/とんかつ">
               <h2>とんかつ</h2>
               <div className="content">
                 <p>
@@ -216,7 +216,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.bread.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/パン">
               <h2>パン</h2>
               <div className="content">
                 <p>
@@ -229,7 +229,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.china.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/中華">
               <h2>中華</h2>
               <div className="content">
                 <p>
@@ -242,7 +242,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.kusikatsu.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/串カツ">
               <h2>串カツ</h2>
               <div className="content">
                 <p>
@@ -255,7 +255,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.izakaya.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/居酒屋">
               <h2>居酒屋</h2>
               <div className="content">
                 <p>
@@ -268,7 +268,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.yousyoku.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/洋食">
               <h2>洋食</h2>
               <div className="content">
                 <p>
@@ -281,7 +281,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.yakiniku.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/焼き肉">
               <h2>焼き肉</h2>
               <div className="content">
                 <p>
@@ -294,7 +294,7 @@ const IndexPage = props => (
             <span className="image">
             <Img fluid={props.data.soba.childImageSharp.fluid} />
             </span>
-            <Link to="/about">
+            <Link to="/tags/蕎麦">
               <h2>蕎麦</h2>
               <div className="content">
                 <p>
